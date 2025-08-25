@@ -90,8 +90,8 @@ const AboutMe = () => {
                 {word}
               </span>
             ))}
-            <span className="word inline-block">Sameer</span> {" "}
-            <span className="word inline-block">Khan</span>
+            <span className="word inline-block">Syed</span> {" "}
+            <span className="word inline-block">Zaman</span>
             <motion.span
               className="word inline-block ml-3"
               animate={{ rotate: [0, 20, 0] }}
@@ -103,50 +103,50 @@ const AboutMe = () => {
 
           <div className="space-y-4 four will-change-transform">
             <p className="text-xl text-zinc-300 leading-relaxed">
-              I don’t just code,{" "}
+              I don’t just analyze numbers,{" "}
               <span className="font-semibold border-b-2 border-zinc-600 hover:border-zinc-400 transition-colors shiny-text">
-                I bring designs to life!
+                I unlock business potential!
               </span>{" "}
               Specializing in{" "}
               <span className="bg-gradient-to-r from-zinc-600 to-zinc-800 text-transparent bg-clip-text shiny-text">
-                React, Three.js, GSAP,
+                digital business strategy, trading analytics,
               </span>{" "}
-              and top-tier animation libraries, I craft experiences that are{" "}
+              and data-driven decision making, I help organizations thrive in the digital marketplace by delivering{" "}
               <span className="border-b-2 border-zinc-700 hover:border-zinc-500 transition-colors shiny-text">
-                smooth, dynamic, and visually stunning.
+                actionable insights and growth opportunities.
               </span>
             </p>
 
             <p className="text-xl text-zinc-300 leading-relaxed">
               From{" "}
               <span className="border-b-2 border-zinc-700 hover:border-zinc-500 transition-colors shiny-text">
-                buttery scroll effects
-              </span>{" "}
-              to{" "}
-              <span className="border-b-2 border-zinc-700 hover:border-zinc-500 transition-colors shiny-text">
-                seamless UI transitions
+                market research
               </span>{" "}
               and{" "}
-              <span className="bg-gradient-to-r from-zinc-600 to-zinc-800 text-transparent bg-clip-text shiny-text">
-                3D magic with Three.js
-              </span>
-              , I make sure every interaction feels{" "}
               <span className="border-b-2 border-zinc-700 hover:border-zinc-500 transition-colors shiny-text">
-                alive and immersive.
+                competitor analysis
               </span>{" "}
-              Whether it's{" "}
+              to{" "}
+              <span className="bg-gradient-to-r from-zinc-600 to-zinc-800 text-transparent bg-clip-text shiny-text">
+                trading strategy optimization
+              </span>
+              , I ensure every business move is{" "}
               <span className="border-b-2 border-zinc-700 hover:border-zinc-500 transition-colors shiny-text">
-                fluid animations, micro-interactions,
+                informed and impactful.
+              </span>{" "}
+              Whether it&apos;s{" "}
+              <span className="border-b-2 border-zinc-700 hover:border-zinc-500 transition-colors shiny-text">
+                leveraging data analytics, automating reports,
               </span>{" "}
               or{" "}
               <span className="border-b-2 border-zinc-700 hover:border-zinc-500 transition-colors shiny-text">
-                motion storytelling
+                identifying new digital opportunities
               </span>
-              , I build web experiences that{" "}
+              , I empower businesses to{" "}
               <span className="bg-gradient-to-r from-zinc-600 to-zinc-800 text-transparent bg-clip-text shiny-text">
-                hit differently.
+                grow smarter and trade better.
               </span>{" "}
-              🎨🔥
+              📈🚀
             </p>
           </div>
         </div>
@@ -156,18 +156,18 @@ const AboutMe = () => {
             <div className="absolute rotates inset-0 bg-gradient-to-br from-[#222] to-[#111] rounded-3xl transform rotate-2 scale-105 group-hover:rotate-0 transition-all duration-500" />
             <div className="absolute inset-0 bg-[#0C0C0D] rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1742118677/sam2_v6lmy9.jpg"
+                src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1756121025/zaman_gagsei.jpg"
                 alt="Sameer Khan"
-                className="w-full img-scale grayscale h-full object-cover object-top transform scale-125 group-hover:scale-[130%] transition-transform duration-500"
+                className="w-full img-scale grayscale h-full object-cover object-center transform scale-125 group-hover:scale-[130%] transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0C0C0D]/90 via-transparent to-transparent" />
             </div>
             <div className="absolute bottom-6 left-6 right-6 p-4 bg-[#ffffff08] backdrop-blur-lg rounded-xl border border-zinc-800 hover:bg-[#1a1a1a] transition-colors">
               <h3 className="text-xl font-bold bg-gradient-to-r from-zinc-300 to-zinc-500 bg-clip-text text-transparent">
-                Currently Creating
+                Also changing that
               </h3>
               <p className="text-zinc-400 mt-1">
-                Interactive 3D web experiences
+                Building innovative digital solutions
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -36,12 +36,12 @@ const Footer = () => {
                   <div className="flex gap-4 ml-1">
                   <FaEnvelope className="text-xl" />
                   <a 
-                  href="mailto:khansameer84233@gmail.com" 
+                  href="mailto:mohdzaman529@gmail.com" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-white/70 transition-colors group"
                   >
-                  khansameer84233@gmail.com
+                  mohdzaman529@gmail.com
                   <span className="text-sm opacity-0 group-hover:opacity-100 transition-opacity">
                     ↗
                   </span>
@@ -67,18 +67,18 @@ const Footer = () => {
             <div className="flex gap-6">
               {[
                 {
-                  icon: <FaGithub />,
-                  link: "https://github.com/Dev-Sameer-Khan",
-                  color: "#111",
+                  icon: <FaWhatsapp />,
+                  link: "https://wa.me/91902686807",
+                  color: "#25D366",
                 },
                 {
                   icon: <FaLinkedin />,
-                  link: "https://www.linkedin.com/in/dev-sameer-khan/",
+                  link: "https://www.linkedin.com/in/syed-mohd-zaman/",
                   color: "#0A66C2",
                 },
                 {
                   icon: <FaInstagram />,
-                  link: "https://www.instagram.com/dev.sameerkhan/",
+                  link: "https://www.instagram.com/mr_zaman_009",
                   color: "#E1306C",
                 },
               ].map((social, index) => (

@@ -8,6 +8,7 @@ import {
   FaDownload,
   FaWhatsapp,
   FaInstagram,
+  FaPhone,
 } from "react-icons/fa";
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -15,37 +16,37 @@ const Contact = () => {
   const sectionRef = useRef();
 
   // Remove local state for form fields, let Formspree handle form data
-  const [state, handleSubmit] = useForm("xqadzjbk"); // Use only the form key, not the full URL
+  const [state, handleSubmit] = useForm("mjkebzrq"); // Use only the form key, not the full URL
 
   const socialLinks = [
     {
       icon: <FaEnvelope />,
-      url: "mailto:khansameer84233@gmail.com",
+      url: "mailto:mohdzaman529@gmail.com",
       color: "#EA4335",
     },
     {
       icon: <FaWhatsapp />,
-      url: "https://wa.me/918957148964",
+      url: "https://wa.me/919026868073",
       color: "#25D366",
     },
     {
       icon: <FaInstagram />,
-      url: "https://www.instagram.com/dev.sameerkhan/",
+      url: "https://www.instagram.com/mr_zaman_009?igsh=MWJtdDl4eXdwMHVrZA==",
       color: "#E4405F",
     },
     {
       icon: <FaLinkedin />,
-      url: "https://www.linkedin.com/in/dev-sameer-khan/",
+      url: "https://www.linkedin.com/in/syed-mohd-zaman/",
       color: "#0077B5",
     },
     {
-      icon: <FaGithub />,
-      url: "https://github.com/Dev-Sameer-Khan",
-      color: "#ffff",
+      icon: <FaPhone />,
+      url: "tel:919026868073",
+      color: "#000",
     },
     {
       icon: <FaTwitter />,
-      url: "https://x.com/Sameer_8teen",
+      url: "https://x.com/mohdzaman529",
       color: "#1DA1F2",
     },
   ];
@@ -79,10 +80,10 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl max-[640px]:text-4xl font-[bold] shiny-text">
-            🚀 Let&apos;s Create Something Amazing! ✨🔥
+            📈 Let&apos;s Elevate Your Digital Business & Trading! 💹✨
           </h2>
           <p className="text-xl mt-4 shiny-text">
-            Your vision, our code - let&apos;s build the future together
+            Unlock growth and insights—connect with a Digital Business &amp; Trading Analyst today.
           </p>
         </motion.div>
 
@@ -173,10 +174,10 @@ const Contact = () => {
                     Direct Line
                   </h3>
                   <a
-                    href="mailto:khansameer84233@gmail.com"
+                    href="mailto:mohdzaman529@gmail.com"
                     className="text-xl hover:text-white/70 transition-colors flex items-center gap-2"
                   >
-                    khansameer84233@gmail.com
+                    mohdzaman529@gmail.com
                     <span className="text-sm opacity-0 group-hover:opacity-100 transition-opacity">
                       ↗
                     </span>
@@ -205,7 +206,7 @@ const Contact = () => {
                 </div>
 
                 <a
-                  href="https://drive.google.com/file/d/1O_cy1mXhSkjfb__G2ocCc22E3pOc6u7O/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1j3qtTNesN-TEkDbxpr3yJioyRj99m7RK/view"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

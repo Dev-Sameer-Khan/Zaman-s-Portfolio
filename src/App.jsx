@@ -32,14 +32,14 @@ const App = () => {
           <Navbar />
           <Hero />
           <About />
-          <Skills />
+          {/* <Skills /> */}
           <Certificates />
           {/* <Projects /> */}
-          <Works/>
+          {/* <Works/> */}
           <Testimonials />
           <Contact />
           <ScrollVelocity
-            texts={["Sameer Khan", "Three Js Developer"]}
+            texts={["Syed Zaman", "Digital Business & Trading Analyst"]}
             velocity={100}
             className="custom-scroll-text will-change-transform bg-[#0C0C0D] text-zinc-200 font-[bold] select-none"
           />

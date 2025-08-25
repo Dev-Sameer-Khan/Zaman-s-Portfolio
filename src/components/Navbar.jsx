@@ -69,15 +69,15 @@ const Navbar = () => {
           {[
             {
               name: "Instagram",
-              url: "https://www.instagram.com/abhishek_gupta.ig/",
+              url: "https://www.instagram.com/mr_zaman_009?igsh=MWJtdDl4eXdwMHVrZA==",
             },
             {
               name: "LinkedIn",
-              url: "https://www.linkedin.com/in/abhishek-gupta-545aa2260/",
+              url: "https://www.linkedin.com/in/syed-mohd-zaman/",
             },
             {
-              name: "Github",
-              url: "https://github.com/Code-With-Abhishek-Kumar",
+              name: "WhatsApp",
+              url: "https://wa.me/919026868073",
             },
           ].map((link, index) => (
             <a
@@ -105,7 +105,7 @@ const Navbar = () => {
             className="cursor-pointer"
           >
             <CircularText
-              text="*SAMEER*KHAN*"
+              text="*SYED*ZAMAN*"
               onHover="slowDown"
               spinDuration={10}
               className="custom"
@@ -130,18 +130,18 @@ const Navbar = () => {
 
         <div className="links flex gap-2 -mt-4 max-[640px]:hidden">
           {[
-            {
-              name: "Instagram /",
-              url: "https://www.instagram.com/dev.sameerkhan/",
-            },
-            {
-              name: "LinkedIn /",
-              url: "https://www.linkedin.com/in/dev-sameer-khan/",
-            },
-            {
-              name: "Github",
-              url: "https://github.com/Dev-Sameer-Khan",
-            },
+           {
+            name: "Instagram /",
+            url: "https://www.instagram.com/mr_zaman_009?igsh=MWJtdDl4eXdwMHVrZA==",
+          },
+          {
+            name: "LinkedIn /",
+            url: "https://www.linkedin.com/in/syed-mohd-zaman/",
+          },
+          {
+            name: "WhatsApp",
+            url: "https://wa.me/919026868073",
+          },
           ].map((link, index) => (
             <a href={link.url} target="_blank" key={index}>
               <Magnet

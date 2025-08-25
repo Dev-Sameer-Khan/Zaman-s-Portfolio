@@ -8,66 +8,48 @@ import { FaCertificate, FaTrophy } from "react-icons/fa";
 
 const certificates = [
   {
-    title: "Frontend Web Development",
-    organization: "Gravity Coding",
-    date: "May 2025",
-    description:
-      "Completed an intensive Frontend Web Development program at Gravity Coding, mastering modern web technologies and building interactive, responsive user interfaces. and Awwards level Web Experiences",
-      credential: "https://www.linkedin.com/posts/dev-sameer-khan_frontenddevelopment-webdesign-html-activity-7333519352693981184-qP1n", 
-    icon: <FaCertificate />,
-  },
-  {
-    title: "React Developer",
-    organization: "Gravity Coding",
-    date: "May 2025",
-    description:
-      "Successfully completed the React Developer program at Gravity Coding, gaining hands-on experience with React, Redux Toolkit, and Tailwind CSS to build modern, scalable web applications.",
-      credential: "https://www.linkedin.com/posts/dev-sameer-khan_reactjs-reduxtoolkit-tailwindcss-activity-7333520953554976773-QFuZ", 
-    icon: <FaCertificate />,
-  },
-  {
-    title: "Skillsvarz 1.0 Hackathon Finalist",
-    organization: "Gravity Coding",
-    date: "June 2025",
-    description:
-      "Finalist at Skillsvarz 1.0, a national-level hackathon organized by Gravity Coding, recognized for developing an Awwards level Creative Studio and demonstrating strong teamwork and technical skills.",
-      credential: "https://www.linkedin.com/posts/dev-sameer-khan_skillsvarz-hackathonexperience-webdevelopment-activity-7332761528720375808-dMzM", 
-    icon: <FaTrophy />,
-  },
-  {
-    title: "GDG Solution Challenge Hackathon",
-    organization: "Google Developer Groups (GDG) & Hack2Skill",
-    date: "August 2025",
-    description:
-      "Received a Certificate of Achievement for participating in the GDG on Campus Solution Challenge, powered by Hack2Skill and Google Developer Groups (GDG). Developed an innovative AI-based idea to solve real-world problems and contribute towards creating a better future. The challenge provided an opportunity to collaborate, innovate, and showcase skills on a national platform.",
-    credential: "https://www.linkedin.com/posts/dev-sameer-khan_googledevelopergroups-hack2skill-solutionchallenge-activity-7363979628778012676-47T3",
-    icon: <FaTrophy />,
-  },
-  {
-    title: "UI/UX Challenge",
-    organization: "Gravity Coding",
-    date: "October 2024",
-    description:
-      "Participated inthe UI/UX Design Competition hosted by Gravity Coding, demonstrating creative problem-solving and user-centered design skills.",
-    credential: "https://www.linkedin.com/posts/dev-sameer-khan_uiux-designcompetition-gravitycoding-activity-7251224860687839233-QSWd",
-    icon: <FaTrophy />,
-  },
-  {
-    title: "HTML Challenge",
-    organization: "Gravity Coding",
-    date: "October 2024",
-    description:
-      "Secured top position in the HTML Challenge by Gravity Coding, showcasing strong HTML skills and attention to detail in web development.",
-    credential: "https://www.linkedin.com/posts/dev-sameer-khan_gravitycoding-htmlchallenge-techcommunity-activity-7253743550830465026-57B8",
-    icon: <FaTrophy />,
-  },
-  {
-    title: "CSS Responsive Challenge",
-    organization: "Gravity Coding",
+    title: "Stock Market Basics",
+    organization: "Zerodha",
     date: "January 2025",
     description:
-      "Secured 3rd position in the CSS Responsive Challenge by Gravity Coding, standing out among hundreds of participants for responsive web design skills.",
-      credential: "https://www.linkedin.com/posts/dev-sameer-khan_cssresponsivechallenge-gravitycoding-creativecoding-activity-7283160760602484736-KGE8", 
+      "You have successfully completed the mandatory requirements prescribed by Zerodha Varsity & passed the certification program in",
+      credential: "https://drive.google.com/file/d/1YOlj57LJ0FvSf7zjjBhUMIQkNNh_ARpu/view", 
+    icon: <FaCertificate />,
+  },
+  {
+    title: "ADCA (Advance Diploma in Computer Applications)",
+    organization: "STP Computer Education",
+    date: "June 2025",
+    description:
+      "Completed the Advanced Diploma in Computer Applications (ADCA) at STP Computer Education, covering a comprehensive curriculum in computer fundamentals, office automation, programming, and practical applications.",
+      credential: "https://drive.google.com/file/d/1jOVW37XV3VRXfOuDTnPskMWqeUdunbeM/view", 
+    icon: <FaCertificate />,
+  },
+  {
+    title: "Advance Excel Course",
+    organization: "GSTP Computer Education",
+    date: "November 2024",
+    description:
+      "Completed an advanced Excel course at GSTP Computer Education, gaining expertise in data analysis, spreadsheet automation, and advanced Excel functions for business and trading applications.",
+      credential: "https://drive.google.com/file/d/1qpamSS7TCTA8box37Sr9UDJGf45d5Jw5/view", 
+    icon: <FaCertificate />,
+  },
+  {
+    title: "Graphic Design",
+    organization: "Star Media Print",
+    date: "Feburary 2024",
+    description:
+      "Completed a comprehensive Graphic Design course at Star Media Print, developing creative design skills and practical experience in visual communication and digital media.",
+    credential: "https://drive.google.com/file/d/15dUY40FjxpF3yr1tNb6qMyNOPeJgCaaE/view",
+    icon: <FaCertificate />,
+  },
+  {
+    title: "Paint Your Dream",
+    organization: "SBI Life Insurance Co. Ltd.",
+    date: "August 2024",
+    description:
+      "Awarded a Certificate of Achievement by SBI Life Insurance Co. Ltd. for outstanding participation in the 'Paint Your Dream' initiative, demonstrating creativity and commitment to personal and professional growth.",
+    credential: "https://drive.google.com/file/d/1D_ARj0st0F-wZI-5fVYnh4i8kCrfex3y/view",
     icon: <FaTrophy />,
   },
 ];

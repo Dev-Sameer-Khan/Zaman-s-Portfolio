@@ -4,25 +4,25 @@ const testimonials = [
   {
     name: "Abhishek Kumar",
     username: "@Code-With-Abhishek-Kumar",
-    text: "Sameer's eye for design and attention to detail is incredible. His React components are both beautiful and performant!",
+    text: "Syed Zaman's expertise as a Digital Business & Trading Analyst is outstanding. His data-driven analysis has helped us make smarter business decisions.",
     image: "https://avatars.githubusercontent.com/u/122656682?v=4",
   },
   {
     name: "Muhammad Muneeb",
     username: "@muhammadmuneeb190",
-    text: "Amazing frontend developer! His UI animations and responsive designs are always spot on. A true CSS wizard.",
+    text: "Zaman’s insights into trading analytics and digital business strategy have transformed our approach. Highly recommended for anyone seeking growth.",
     image: "https://avatars.githubusercontent.com/u/161440680?v=4",
   },
   {
     name: "Sawnwal Sulheriaa",
     username: "@sanwal_sulehriaa",
-    text: "Sameer brings designs to life with clean, modern code. His React expertise and state management skills are outstanding!",
+    text: "Working with Syed Zaman was a game changer. His market research and competitor analysis skills are top-notch in the digital business space.",
     image: "https://avatars.githubusercontent.com/u/173961159?v=4",
   },
   {
     name: "Muhammad Anwar Uddin",
     username: "@MuhammadAnwarUddin",
-    text: "A master of modern frontend frameworks! His component architecture and code organization are exemplary.",
+    text: "Zaman’s data-driven trading strategies and business analytics have given our organization a real competitive edge.",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
 ];

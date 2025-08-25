@@ -80,14 +80,13 @@ const Hero = () => {
     <section className="w-full h-screen bg-black/50 absolute top-0 z-[99] pointer-events-none pt-20 max-[640px]:pt-10">
       <div className="flex w-full h-full gap-4 flex-col items-center justify-center text-white px-4 max-[640px]:px-2">
         <img
-          src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1742119110/sam_logo_bs1syb.svg"
+          src="https://res.cloudinary.com/dbgzq41x2/image/upload/v1756121505/zaman-dp_bwzd85.png"
           alt="Profile"
-          className="img will-change-transform w-30 h-30 rounded-full border-2 border-zinc-800 grayscale"
+          className="img will-change-transform w-30 h-30 object-cover rounded-full border-2 border-zinc-800 grayscale"
         />
-        <p className="shiny-text text-md one will-change-transform">Hi, I'm Sameer Khan 👋</p>
+        <p className="shiny-text text-md one will-change-transform">Hi, I'm Syed Zaman 👋</p>
         <p className="two will-change-transform text-[4vw] max-[640px]:text-[10vw] w-[55%] max-[640px]:w-full font-light text-center leading-tight shiny-text">
-          Creating eye-catching designs, <br /> fluid interactions, and <br /> immersive web
-          experiences.
+          Empowering digital business and trading through smart, data-driven analysis.
         </p>
 
         <Magnet disabled={false} magnetStrength={20} className="cursor-pointer">
