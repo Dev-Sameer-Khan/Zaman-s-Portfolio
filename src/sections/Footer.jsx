@@ -68,7 +68,7 @@ const Footer = () => {
               {[
                 {
                   icon: <FaWhatsapp />,
-                  link: "https://wa.me/91902686807",
+                  link: "https://wa.me/919026868073",
                   color: "#25D366",
                 },
                 {
