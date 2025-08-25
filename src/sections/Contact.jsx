@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import {
   FaEnvelope,
   FaLinkedin,
-  FaGithub,
   FaTwitter,
   FaDownload,
   FaWhatsapp,
@@ -11,12 +10,16 @@ import {
   FaPhone,
 } from "react-icons/fa";
 import { useForm, ValidationError } from "@formspree/react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { SplitText } from "gsap/SplitText";
+
+gsap.registerPlugin(SplitText);
 
 const Contact = () => {
   const sectionRef = useRef();
 
-  // Remove local state for form fields, let Formspree handle form data
-  const [state, handleSubmit] = useForm("mjkebzrq"); // Use only the form key, not the full URL
+  const [state, handleSubmit] = useForm("mjkebzrq"); 
 
   const socialLinks = [
     {
@@ -51,6 +54,77 @@ const Contact = () => {
     },
   ];
 
+
+
+  useGSAP(() => {
+    const title = SplitText.create(".five", { type: "chars" });
+
+
+    gsap.fromTo(
+      title.chars,
+      {
+        y: 100,
+        opacity: 0,
+        blur: "100px"
+      },
+      {
+        opacity: 1,
+        y: 0,
+        blur: "0px",
+        stagger: 0.005,
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".five",
+          start: "top 80%",
+          toggleActions: "play none none reverse",
+        }
+      }
+    );
+
+    gsap.fromTo(
+      ".left",
+      {
+        x: -100,
+        opacity: 0,
+        blur: "100px"
+      },
+      {
+        opacity: 1,
+        x: 0,
+        blur: "0px",
+        stagger: 0.001,
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".left",
+          start: "top 80%",
+          toggleActions: "play none none reverse",
+        }
+      }
+    );
+
+    gsap.fromTo(
+      ".right",
+      {
+        x: 100,
+        opacity: 0,
+        blur: "100px"
+      },
+      {
+        opacity: 1,
+        x: 0,
+        blur: "0px",
+        stagger: 0.001,
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".right",
+          start: "top 80%",
+          toggleActions: "play none none reverse",
+        }
+      }
+    );
+
+  }, []);
+
   if (state.succeeded) {
     return (
       <section
@@ -65,6 +139,7 @@ const Contact = () => {
     );
   }
 
+
   return (
     <section
       ref={sectionRef}
@@ -73,11 +148,8 @@ const Contact = () => {
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/concrete-wall.png')] opacity-10 mix-blend-soft-light" />
 
       <div className="relative z-20 w-full max-w-7xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+        <div
+          className="text-center mb-16 five will-change-transform"
         >
           <h2 className="text-5xl max-[640px]:text-4xl font-[bold] shiny-text">
             📈 Let&apos;s Elevate Your Digital Business & Trading! 💹✨
@@ -85,14 +157,14 @@ const Contact = () => {
           <p className="text-xl mt-4 shiny-text">
             Unlock growth and insights—connect with a Digital Business &amp; Trading Analyst today.
           </p>
-        </motion.div>
+        </div>
 
         <div className="flex flex-col lg:flex-row gap-12 w-full z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="glass-container backdrop-blur-3xl rounded-3xl border border-white/10 p-8 shadow-2xl flex-1"
+            className="glass-container left will-change-transform backdrop-blur-3xl rounded-3xl border border-white/10 p-8 shadow-2xl flex-1"
           >
             <form className="space-y-8" onSubmit={handleSubmit}>
               <div className="floating-input-group">
@@ -162,7 +234,7 @@ const Contact = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="space-y-8 flex-1"
+            className="space-y-8 flex-1 right will-change-transform"
           >
             <div className="glass-container backdrop-blur-3xl rounded-3xl border border-white/10 p-8 h-full shadow-2xl">
               <div className="space-y-10">
