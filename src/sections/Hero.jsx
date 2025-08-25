@@ -92,11 +92,11 @@ const Hero = () => {
         <Magnet disabled={false} magnetStrength={20} className="cursor-pointer">
           <button className="btn will-change-transform mt-2 bg-zinc-900 px-6 py-2 rounded cursor-pointer pointer-events-auto">
             <a
-              href="https://forms.gle/3uhToSZ5dmkgtC3c8"
+              href="https://drive.google.com/file/d/1j3qtTNesN-TEkDbxpr3yJioyRj99m7RK/view?usp=sharing"
               target="_blank"
               className="shiny-text"
             >
-              Let’s create magic ↗
+              Get My Blueprints ↗
             </a>
           </button>
         </Magnet>
