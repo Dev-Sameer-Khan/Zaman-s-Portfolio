@@ -32,7 +32,7 @@ const App = () => {
           <Navbar />
           <Hero />
           <About />
-          {/* <Skills /> */}
+          <Skills />
           <Certificates />
           {/* <Projects /> */}
           {/* <Works/> */}

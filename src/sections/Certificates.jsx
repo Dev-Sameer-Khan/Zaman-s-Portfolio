@@ -22,6 +22,24 @@ const certificates = [
     icon: <FaCertificate />,
   },
   {
+    title: "Risk Managment & Trading Pshycology",
+    organization: "Zerodha",
+    date: "August 2025",
+    description:
+      "Successfully completed the Risk Management certification program at Zerodha Varsity, demonstrating a strong understanding of risk assessment, mitigation strategies, and best practices in financial markets.",
+      credential: "https://drive.google.com/file/d/1ge7yI7HMspFMKArWa6xhp8fwu4aHYQon/view", 
+    icon: <FaCertificate />,
+  },
+  {
+    title: "Currency, Commodity, and Govt Securities",
+    organization: "Zerodha",
+    date: "August 2025",
+    description:
+      "Successfully completed the Currency, Commodity, and Govt Securitiescertification program at Zerodha Varsity, demonstrating a strong understanding of risk assessment, mitigation strategies, trading psychology, and best practices in financial markets.",
+      credential: "https://drive.google.com/file/d/1foWado1Cwl_oQoEWKDRuQC7zeGo_9I9B/view", 
+    icon: <FaCertificate />,
+  },
+  {
     title: "ADCA (Advance Diploma in Computer Applications)",
     organization: "STP Computer Education",
     date: "June 2025",
@@ -32,7 +50,7 @@ const certificates = [
   },
   {
     title: "Advance Excel Course",
-    organization: "GSTP Computer Education",
+    organization: "STP Computer Education",
     date: "November 2024",
     description:
       "Completed an advanced Excel course at GSTP Computer Education, gaining expertise in data analysis, spreadsheet automation, and advanced Excel functions for business and trading applications.",
@@ -45,7 +63,7 @@ const certificates = [
     date: "Feburary 2024",
     description:
       "Completed a comprehensive Graphic Design course at Star Media Print, developing creative design skills and practical experience in visual communication and digital media.",
-    credential: "https://drive.google.com/file/d/15dUY40FjxpF3yr1tNb6qMyNOPeJgCaaE/view",
+    credential: "https://drive.google.com/file/d/1b-WzCPiqtj5Rk4wivc_yIm_txZs0nMR5/view",
     icon: <FaCertificate />,
   },
   {
@@ -54,7 +72,7 @@ const certificates = [
     date: "August 2024",
     description:
       "Awarded a Certificate of Achievement by SBI Life Insurance Co. Ltd. for outstanding participation in the 'Paint Your Dream' initiative, demonstrating creativity and commitment to personal and professional growth.",
-    credential: "https://drive.google.com/file/d/1D_ARj0st0F-wZI-5fVYnh4i8kCrfex3y/view",
+    credential: "https://drive.google.com/file/d/1Ph_l2BlwY-IG-tdQoML0oKCqr_fM-qFr/view",
     icon: <FaTrophy />,
   },
 ];

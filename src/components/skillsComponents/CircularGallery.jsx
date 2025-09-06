@@ -361,44 +361,32 @@ class App {
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
       {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1740506626/html_czqdoz.svg`,
-        text: "HTML",
+        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1757147078/skill-5_leroi6.svg`,
+        text: "Business Analytics",
       },
       {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1740506577/css_uevrzn.svg`,
-        text: "CSS",
+        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1757147078/skill-6_kddg0k.svg`,
+        text: "Digital Marketing",
       },
       {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1740506615/tailwind_qz3q5q.svg`,
-        text: "Tailwind CSS",
+        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1757147078/skill-7_xtkzn7.svg`,
+        text: "Data Visualization",
       },
       {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1740506592/js_kcpkjh.svg`,
-        text: "JavaScript",
+        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1757147102/skill-1_mknc4j.svg`,
+        text: "Trading Platforms",
       },
       {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1740506564/gsap_fe9ysp.svg`,
-        text: "GSAP",
+        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1757147078/skill-4_y4ynev.svg`,
+        text: "Technical Analysis",
       },
       {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1740506521/react_pnexmf.svg`,
-        text: "React JS",
+        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1757147081/skill-3_ezlpjd.svg`,
+        text: "SEO",
       },
       {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1742122288/three_umnlxf.svg`,
-        text: "Three JS",
-      },
-      {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1742122317/figma_ez7aia.svg`,
-        text: "Figma",
-      },
-      {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1740506602/postman_edldjb.svg`,
-        text: "Postman",
-      },
-      {
-        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1740506542/github_ygs42r.svg`,
-        text: "Github",
+        image: `https://res.cloudinary.com/dbgzq41x2/image/upload/v1757147081/skill-2_ltmsoy.svg`,
+        text: "Sales Executive",
       },
     ];
     const galleryItems = items && items.length ? items : defaultItems;
